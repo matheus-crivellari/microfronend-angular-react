@@ -1,0 +1,12 @@
+.box {
+    background-color: aliceblue;
+    color: darkblue;
+    box-shadow: 4px 8px 6px #00000045;
+    border-radius: 6px;
+    padding: 0.5em 1em;
+    box-sizing: border-box;
+
+    small {
+        color: red;
+    }
+}

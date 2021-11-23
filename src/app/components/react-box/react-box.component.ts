@@ -14,7 +14,7 @@ import { ReactBox } from "./ReactBox";
 @Component({
   selector: "app-react-box",
   template: '<div>react-box works!</div>',
-  styleUrls: ["./react-box.component.scss"],
+  styleUrls: ["./react-box.component.scss", "./styles.scss"],
   encapsulation: ViewEncapsulation.None,
 })
 export class ReactBoxComponent implements OnChanges, OnDestroy, AfterViewInit {
